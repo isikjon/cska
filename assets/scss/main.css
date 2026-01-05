@@ -14,6 +14,18 @@ body {
   margin: 0;
   font-family: "ONY One", sans-serif;
   position: relative;
+  background-color: #fff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 94px;
+  background-color: #fff;
+  z-index: 10001;
 }
 
 main {
@@ -256,11 +268,22 @@ table {
 .hero__block {
   background-image: url("../img/hero.png");
   min-height: 138vh;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+.hero__block::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
 }
 .hero__block .container {
   display: flex;
@@ -479,16 +502,37 @@ table {
   display: flex;
   max-width: 100%;
   height: 90vh;
+  position: relative;
+}
+.kit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
+.kit::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
 }
 .kit__block-left {
   background-image: url("../img/kit_left.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
 }
 .kit__block-right {
   background-image: url("../img/kit_right.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 50%;
   padding: 40px 25px;
@@ -521,11 +565,32 @@ table {
 
 .map {
   background-image: url("../img/map-yandex.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   width: 100%;
   height: 100vh;
+  position: relative;
+}
+.map::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
+.map::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
 }
 .map__block-wrapper {
   display: flex;
@@ -771,6 +836,29 @@ table {
   padding-bottom: 29px;
 }
 
+.about {
+  position: relative;
+}
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
 .about__content {
   display: flex;
   padding: 120px 0;
@@ -813,7 +901,7 @@ table {
 .about__block-right {
   background-image: url("../img/video.webp");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 608px;
   height: 420px;
   color: transparent;
@@ -827,11 +915,32 @@ table {
 
 .benefits {
   background-image: url("../img/academy.webp");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 160vh;
+  position: relative;
+}
+.benefits::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
+}
+.benefits::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
 }
 .benefits__content {
   display: flex;
@@ -896,6 +1005,17 @@ table {
 
 .study {
   padding: 120px 0;
+  position: relative;
+}
+.study::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  z-index: 1;
 }
 .study__intro .title__block {
   color: #293484;
