@@ -1,21 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>ДЮФА ЦСКА - Главная страница</title>
+    <link rel="stylesheet" href="./assets/fonts/ony_one/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/cska/stylesheet.css">
     <link rel="stylesheet" href="./assets/scss/main.css">
-    <link href="https://db.onlinewebfonts.com/c/4ab75a6cae6ddc9f6aa4724df744dfb2?family=ALS+CSKA+Regular" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </head>
+
 <body>
     <section class="hero__block">
+        <div class="hero__block-navbar-fixed hero__block-navbar">
+            <div class="hero__block-navbar-wrapper">
+                <div class="hero__block-navbar-burger">
+                    <a href="#"><img src="./assets/img/ico/burger.svg" alt="burger"></a>
+                </div>
+                <div class="hero__block-navbar-logo">
+                    <a href="#"><img src="./assets/img/logo.png" alt="Логотип"></a>
+                </div>
+                <div class="hero__block-navbar-links">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Адреса центров</a></li>
+                            <li><a href="#">Об академии</a></li>
+                            <li><a href="#">Группы</a></li>
+                            <li><a href="#">Вопросы</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">еще <img src="./assets/img/ico/dropdown.svg" alt="dropdown"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero__block-navbar-links hero__block-navbar-social-links">
+                <a href="tel:+7 (495) 1011 911">+7 (495) 1011 911</a>
+                <a href="mailto:info@dufa-cska.com">info@dufa-cska.com</a>
+                <a href="#"><img src="./assets/img/ico/vk.svg" alt="Вконтакте"></a>
+                <div class="hero__block-navbar-buttons">
+                    <div class="hero__block-content kit__block-right-button">
+                        <div class="hero__block-intro-button hero__block-navbar-fixed-left">
+                            <a href="#">Записаться</a>
+                            <img src="./assets/img/ico/arrow.svg" alt="arrow">
+                        </div>
+                    </div>
+                    <div class="hero__block-content kit__block-right-button ">
+                        <div class="hero__block-intro-button hero__block-navbar-fixed-right">
+                            <a href="#">Личный кабинет</a>
+                            <img src="./assets/img/ico/arrow.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="hero__block-content">
                 <div class="hero__block-navbar">
@@ -30,7 +75,8 @@
                                     <li><a href="#">Об академии</a></li>
                                     <li><a href="#">Группы</a></li>
                                     <li><a href="#">Вакансии</a></li>
-                                    <li><a href="#">еще <img src="./assets/img/ico/dropdown.svg" alt="dropdown"></a></li>
+                                    <li><a href="#">еще <img src="./assets/img/ico/dropdown.svg" alt="dropdown"></a>
+                                    </li>
                                     <li><a href="#">Сборы <img src="./assets/img/ico/arrow.svg" alt="arrow"></a></li>
                                     <li><a href="#">Франшиза <img src="./assets/img/ico/arrow.svg" alt="arrow"></a></li>
                                 </ul>
@@ -47,7 +93,7 @@
                 <div class="hero__block-intro">
                     <div class="hero__block-intro-title">
                         <h5>ОФИЦИАЛЬНАЯ ДЕТСКО-ЮНОШЕСКАЯ ФУТБОЛЬНАЯ АКАДЕМИЯ ПФК ЦСКА</h5>
-                        <h1>ВОСПИТЫВАЕМ 
+                        <h1>ВОСПИТЫВАЕМ
                             ЧЕМПИОНОВ</h1>
                     </div>
                     <div class="hero__block-intro-button">
@@ -58,5 +104,122 @@
             </div>
         </div>
     </section>
+    <section class="kit">
+        <div class="kit__block-left">
+        </div>
+        <div class="kit__block-right">
+            <h2>Идёт набор на новый учебный год!</h2>
+            <p>
+                Детско-Юношеская Футбольная Академия ПФК ЦСКА объявляет набор детей с 3 до 16 лет в группы Футбольных
+                Центров. Просим Вас для обратной связи оставить заявку на ознакомительную тренировку, наши специалисты
+                обязательно свяжутся с Вами.
+            </p>
+            <div class="hero__block-content kit__block-right-button">
+                <div class="hero__block-intro-button">
+                    <a href="#">Записаться</a>
+                    <img src="./assets/img/ico/arrow_blue.svg" alt="arrow">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <div class="container">
+            <div class="map__block-wrapper">
+                <div class="map__block-left"></div>
+                <div class="map__block-right">
+                    <div class="map__block-right-popup">
+                        <h2 class="title__block">Адреса футбольных центров</h2>
+                        <div class="map__block-right-popup-select-wrapper">
+                            <div class="map__block-right-popup-select-custom">
+                                <div class="map__block-right-popup-select-input">
+                                    <span class="map__block-right-popup-select-text">ВЫБЕРИТЕ ГОРОД</span>
+                                    <button type="button" class="map__block-right-popup-select-close" style="display: none;">
+                                        <img src="./assets/img/ico/close.svg" alt="close">
+                                    </button>
+                                    <span class="map__block-right-popup-select-icon"></span>
+                                </div>
+                                <div class="map__block-right-popup-select-dropdown">
+                                    <div class="map__block-right-popup-select-option" data-value="1">МОСКВА</div>
+                                    <div class="map__block-right-popup-select-option" data-value="2">МОСКОВСКАЯ ОБЛАСТЬ</div>
+                                    <div class="map__block-right-popup-select-option" data-value="3">ОРЕЛ</div>
+                                    <div class="map__block-right-popup-select-option" data-value="4">Центр ЦСКА</div>
+                                    <div class="map__block-right-popup-select-option" data-value="5">Центр ЦСКА</div>
+                                    <div class="map__block-right-popup-select-option" data-value="6">Центр ЦСКА</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map__block-right-popup-result-wrapper">
+                            <div class="map__block-right-popup-title">
+                                <h3 class="title__block">Москва</h3> 
+                                <p>8</p>
+                            </div>
+                            <div class="map__block-right-popup-result">
+                                <div class="map__block-right-popup-result-list">
+                                    <div class="map__block-right-popup-result-item">
+                                        <div class="map__block-right-popup-result-item-title">
+                                            <div class="map__block-right-popup-result-item-head">
+                                                <img src="./assets/img/ico/toggle.svg" alt="toggle">
+                                                <p>Новогиреево</p>
+                                            </div>
+                                            <div class="map__block-right-popup-result-item-footer">
+                                                <p>г. Москва, Прокатная, вл. 2-4</p>
+                                            </div>
+                                        </div>
+                                        <div class="map__block-right-popup-result-item-link">
+                                            <div class="hero__block-content kit__block-right-button">
+                                                <div class="hero__block-intro-button">
+                                                    <a href="#">Перейти на сайт</a>
+                                                    <img src="./assets/img/ico/arrow.svg" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="map__block-right-popup-result-item">
+                                        <div class="map__block-right-popup-result-item-title">
+                                            <div class="map__block-right-popup-result-item-head">
+                                                <img src="./assets/img/ico/toggle.svg" alt="toggle">
+                                                <p>Перово</p>
+                                            </div>
+                                            <div class="map__block-right-popup-result-item-footer">
+                                                <p>г. Москва, Перовская ул., д. 66Д</p>
+                                            </div>
+                                        </div>
+                                        <div class="map__block-right-popup-result-item-link">
+                                            <div class="hero__block-content kit__block-right-button">
+                                                <div class="hero__block-intro-button">
+                                                    <a href="#">Перейти на сайт</a>
+                                                    <img src="./assets/img/ico/arrow.svg" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="map__block-right-popup-result-item">
+                                        <div class="map__block-right-popup-result-item-title">
+                                            <div class="map__block-right-popup-result-item-head">
+                                                <img src="./assets/img/ico/toggle.svg" alt="toggle">
+                                                <p>Марьино</p>
+                                            </div>
+                                            <div class="map__block-right-popup-result-item-footer">
+                                                <p>ГБОУ Марьинская Школа № 1566 памяти Героев Сталинградской битвы г. Москва, Люблинская 17ЗА</p>
+                                            </div>
+                                        </div>
+                                        <div class="map__block-right-popup-result-item-link">
+                                            <div class="hero__block-content kit__block-right-button">
+                                                <div class="hero__block-intro-button">
+                                                    <a href="#">Перейти на сайт</a>
+                                                    <img src="./assets/img/ico/arrow.svg" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

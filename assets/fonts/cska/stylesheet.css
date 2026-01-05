@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'ONY One';
+    src: url('ONYOne-Medium.eot');
+    src: url('ONYOne-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ONYOne-Medium.woff2') format('woff2'),
+        url('ONYOne-Medium.woff') format('woff'),
+        url('ONYOne-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ONY One';
+    src: url('ONYOne-Regular.eot');
+    src: url('ONYOne-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ONYOne-Regular.woff2') format('woff2'),
+        url('ONYOne-Regular.woff') format('woff'),
+        url('ONYOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 250';
+    src: url('CSKA-250.eot');
+    src: url('CSKA-250.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-250.woff2') format('woff2'),
+        url('CSKA-250.woff') format('woff'),
+        url('CSKA-250.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 500';
+    src: url('CSKA-500.eot');
+    src: url('CSKA-500.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-500.woff2') format('woff2'),
+        url('CSKA-500.woff') format('woff'),
+        url('CSKA-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 100';
+    src: url('CSKA-100.eot');
+    src: url('CSKA-100.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-100.woff2') format('woff2'),
+        url('CSKA-100.woff') format('woff'),
+        url('CSKA-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 250';
+    src: url('CSKA-250_1.eot');
+    src: url('CSKA-250_1.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-250_1.woff2') format('woff2'),
+        url('CSKA-250_1.woff') format('woff'),
+        url('CSKA-250_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 100';
+    src: url('CSKA-100_1.eot');
+    src: url('CSKA-100_1.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-100_1.woff2') format('woff2'),
+        url('CSKA-100_1.woff') format('woff'),
+        url('CSKA-100_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 100';
+    src: url('CSKA-100_2.eot');
+    src: url('CSKA-100_2.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-100_2.woff2') format('woff2'),
+        url('CSKA-100_2.woff') format('woff'),
+        url('CSKA-100_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 500';
+    src: url('CSKA-500_1.eot');
+    src: url('CSKA-500_1.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-500_1.woff2') format('woff2'),
+        url('CSKA-500_1.woff') format('woff'),
+        url('CSKA-500_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 500';
+    src: url('CSKA-500_2.eot');
+    src: url('CSKA-500_2.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-500_2.woff2') format('woff2'),
+        url('CSKA-500_2.woff') format('woff'),
+        url('CSKA-500_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 250';
+    src: url('CSKA-250_2.eot');
+    src: url('CSKA-250_2.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-250_2.woff2') format('woff2'),
+        url('CSKA-250_2.woff') format('woff'),
+        url('CSKA-250_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 500';
+    src: url('CSKA-500_3.eot');
+    src: url('CSKA-500_3.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-500_3.woff2') format('woff2'),
+        url('CSKA-500_3.woff') format('woff'),
+        url('CSKA-500_3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 250';
+    src: url('CSKA-250_3.eot');
+    src: url('CSKA-250_3.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-250_3.woff2') format('woff2'),
+        url('CSKA-250_3.woff') format('woff'),
+        url('CSKA-250_3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSKA 100';
+    src: url('CSKA-100_3.eot');
+    src: url('CSKA-100_3.eot?#iefix') format('embedded-opentype'),
+        url('CSKA-100_3.woff2') format('woff2'),
+        url('CSKA-100_3.woff') format('woff'),
+        url('CSKA-100_3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
