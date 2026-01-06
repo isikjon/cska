@@ -835,16 +835,27 @@ section {
     display: flex;
     width: 100%;
     min-height: 120vh;
+    max-height: 100vh;
+    overflow: hidden;
+    @media (min-width: 1920px) {
+        min-height: 100vh;
+    }
     &__left {
         width: 60%;
+        flex: 0 0 60%;
         background-image: url("../img/group_left.png");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
+        background-position: center;
         padding: 95px 40px 0 95px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         min-height: 100vh;
+        @media (min-width: 1920px) {
+            min-height: 100vh;
+            max-height: 100vh;
+        }
     }
     &__title {
         width: 100%;
@@ -876,12 +887,17 @@ section {
         }
     }
     &__right {
-        width: 57%;
+        width: 40%;
+        flex: 0 0 40%;
         background-image: url("../img/group_right.png");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-position: bottom;
         padding: 95px 40px 0 40px;
+        @media (min-width: 1920px) {
+            min-height: 100vh;
+            max-height: 100vh;
+        }
     }
     &__right-intro {
         .title__block {
