@@ -835,14 +835,14 @@ section {
     display: flex;
     width: 100%;
     min-height: 120vh;
-    max-height: 100vh;
+    max-height: 120vh;
     overflow: hidden;
     @media (min-width: 1920px) {
-        min-height: 100vh;
+        min-height: 120vh;
     }
     &__left {
-        width: 60%;
-        flex: 0 0 60%;
+        width: 50%;
+        flex: 0 0 50%;
         background-image: url("../img/group_left.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -851,10 +851,10 @@ section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 100vh;
+        min-height: 120vh;
         @media (min-width: 1920px) {
-            min-height: 100vh;
-            max-height: 100vh;
+            min-height: 120vh;
+            max-height: 120vh;
         }
     }
     &__title {
@@ -887,16 +887,16 @@ section {
         }
     }
     &__right {
-        width: 40%;
-        flex: 0 0 40%;
+        width: 50%;
+        flex: 0 0 50%;
         background-image: url("../img/group_right.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
         padding: 95px 40px 0 40px;
         @media (min-width: 1920px) {
-            min-height: 100vh;
-            max-height: 100vh;
+            min-height: 120vh;
+            max-height: 120vh;
         }
     }
     &__right-intro {

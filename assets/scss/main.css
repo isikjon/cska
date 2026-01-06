@@ -1059,17 +1059,17 @@ section {
   display: flex;
   width: 100%;
   min-height: 120vh;
-  max-height: 100vh;
+  max-height: 120vh;
   overflow: hidden;
 }
 @media (min-width: 1920px) {
   .group {
-    min-height: 100vh;
+    min-height: 120vh;
   }
 }
 .group__left {
-  width: 60%;
-  flex: 0 0 60%;
+  width: 50%;
+  flex: 0 0 50%;
   background-image: url("../img/group_left.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1078,12 +1078,12 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
+  min-height: 120vh;
 }
 @media (min-width: 1920px) {
   .group__left {
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 120vh;
+    max-height: 120vh;
   }
 }
 .group__title {
@@ -1114,8 +1114,8 @@ section {
   color: #fff;
 }
 .group__right {
-  width: 40%;
-  flex: 0 0 40%;
+  width: 50%;
+  flex: 0 0 50%;
   background-image: url("../img/group_right.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1124,8 +1124,8 @@ section {
 }
 @media (min-width: 1920px) {
   .group__right {
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 120vh;
+    max-height: 120vh;
   }
 }
 .group__right-intro .title__block {
